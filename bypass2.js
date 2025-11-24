@@ -27,7 +27,7 @@ if (fullMode) {
 function printHelp() {
     console.clear();
     console.log('\x1b[36mBypass Customer Firewall\x1b[0m');
-    console.log('\x1b[36mHigh-performance HTTP/2 flood tool for maximum efficiency Bypasses Cloudflare- by @Vinh\x1b[0m');
+    console.log('\x1b[36mHigh-performance HTTP/2 flood tool for maximum efficiency Bypasses Cloudflare-\x1b[0m');
     console.log('\x1b[33mOptions:\x1b[0m');
     console.log('  \x1b[37m--query (1/2/3)\x1b[0m            : Different query patterns for CF bypass');
     console.log('  \x1b[37m--delay (1-1000)\x1b[0m            : Delay between connections (ms)');
@@ -618,4 +618,5 @@ if (cluster.isMaster) {
     setTimeout(() => {
         process.exit(0);
     }, time * 1000);
+
 }
